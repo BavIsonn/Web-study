@@ -1,0 +1,278 @@
+a{
+
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+
+}
+a:link{
+    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+    color: #3A681A;
+
+  }
+  a:hover {
+    
+    color: #5CA22E;
+
+  }
+  a:active {
+    
+    color: #DC0000;
+
+  }
+  .pole {
+    
+    border: 1px solid #008000;
+    width: 95px;
+    font-size: 11px;
+    background-color: #E7F2D7;
+    height: 17px;
+
+  }
+  .pole2 {
+    
+    border: 1px solid #008000;
+    font-size: 11px;
+    background-color: #E7F2D7;
+    height: 17px;
+  }
+  .header{
+
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+
+    padding: 10px 10px 10px 10px;
+
+  }
+  .line{
+    
+    border-color: rgb(0, 0, 0);
+    border-style: dashed;
+
+    border-top: 1px;
+    border-right: 0px;
+    border-left: 0px;
+    border-width: 2px;
+
+    padding-top: 10px;
+    margin-bottom: 7px;
+
+  }
+  .exercise2-headder{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: green;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+  }
+  .exercise2-body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    line-height: 1.4rem;
+
+  }
+  .box-parent{
+    
+    display: flex;
+    justify-content: center;
+
+
+  }
+  .box-black{
+
+    background-color: black;
+
+    width: 70px;
+    height: 70px;
+    
+    margin-right: -3px;
+    margin-left: 0px;
+
+  }
+  .box-black:hover{
+    
+    background-color: gray;
+
+  }
+  .box-blue{
+
+    background-color: blue;
+
+    width: 70px;
+    height: 70px;
+
+    margin-right: 6px;
+    margin-left: 10px;
+  }
+  .box-blue:hover{
+
+    background-color: orange;
+
+  }
+  .box-battery{
+
+    display: flex;
+    justify-content: center;
+
+  }
+  .battery-outline{
+
+    width: 169px;
+    height: 70px;
+
+    border: 4px solid black;
+
+    margin-bottom: 10px;
+    margin-right: 30px;
+
+    position: relative;
+
+  }
+  .battery-red::before, ::after{
+      
+      content: "";
+
+      position: absolute;
+      
+    }
+    .battery-red::before{
+  
+      width: 33%;
+      height: 100%;
+      
+      background: red;
+  
+}
+    .battery-red::after{
+
+    width: 10px;
+    height: 20px;
+
+    background: black;
+
+    right: -10px; top: 25px;
+
+}
+.battery-yellow::before, ::after{
+
+    content: "";
+
+    position: absolute;
+
+}
+.battery-yellow::after{
+
+    width: 10px;
+    height: 20px;
+
+    background: black;
+    
+    right: -10px; top: 25px;
+
+}
+.battery-yellow::before{
+
+    width: 65%;
+    height: 100%;
+    
+    background: rgb(255, 174, 0);
+
+}
+.battery-green::before, ::after{
+
+    content: "";
+
+    position: absolute;
+
+}
+.battery-green::before{
+
+    width: 100%;
+    height: 100%;
+    
+    background: rgb(0, 255, 0);
+
+}
+.battery-green::after{
+    
+    width: 10px;
+    height: 20px;
+
+    background: black;
+    
+    right: -10px; top: 25px;
+
+}
+.radix1 {
+
+    display: inline-block;
+
+    width: 5px;
+    height: 10px;
+
+    vertical-align: bottom;
+
+    border-top: .5px solid;
+    border-right: .5px solid;
+
+    transform: skew(25deg);
+
+  }
+.radix2{
+
+    display: inline-block;
+    
+    vertical-align: bottom;
+
+    border-top: .5px solid;
+    border-left: .5px solid;
+
+    transform: skew(-9deg);
+}
+.radicand {
+    display: inline-block;
+    transform: skew(15deg);
+
+    padding-left: 3px;
+
+  }
+  .box-core{
+    
+    display: flex;
+    justify-content: center;
+
+    
+}
+.box-shadow1{
+    
+    height: 100px;
+    width: 100px;
+    
+    background-color: aqua;
+    
+    box-shadow: 4px 4px 6px 3px rgb(0, 195, 255);
+    
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+  }
+  .box-shadow2{
+
+    height: 100px;
+    width: 100px;
+
+    background-color: blue;
+    box-shadow: 4px 4px 6px 3px hsl(229 73% 39% / 1);
+
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+  }
